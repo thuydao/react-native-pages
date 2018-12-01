@@ -63,7 +63,7 @@ export default class Indicator extends PureComponent {
         'column';
 
     return (
-      <View style={[styles.container, { flexDirection }, style]} {...props}>
+      <View style={[styles.container, { flexDirection, bottom: 100 }, style]} {...props}>
         {dots}
       </View>
     );
